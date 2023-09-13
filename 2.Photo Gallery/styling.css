@@ -1,0 +1,52 @@
+/*Let's make sure that the dimensions of any box includes its border and padding, this gives us an easy way of sizing our elements*/
+* {
+    box-sizing: border-box;
+   background-image: linear-gradient(grey,white);
+/*    background-color: grey;*/
+}
+
+/*convert the container to a flexbox*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+ h3{
+    color:blue;
+    padding:20px;
+     font-size: 40px;
+     text-align: center;
+    
+}
+
+/*
+.column:nth-child(1){
+    background-color: skyblue;
+}
+.column:nth-child(2){
+    background-color: palevioletred;
+}
+.column:nth-child(3){
+    background-color: greenyellow;
+}
+.column:nth-child(4){
+    background-color: lightcoral;
+}
+*/
+
+.column{
+    flex: 1;
+    min-width: 250px;
+}
+
+.column img{
+    width: 99%;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.container .column img:hover{
+    opacity:10.0;
+    border:3px solid grey ;
+    border-radius: 5px;
+
+}
