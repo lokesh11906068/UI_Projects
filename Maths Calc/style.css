@@ -1,0 +1,105 @@
+html{
+    height:100%;
+/*    background-image: linear-gradient(white,grey);*/
+    
+}
+#container{
+    height: 550px;
+    width: 550px;
+    background-color: #9DD2EA;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    -moz-box-shadow: 0px 4px 0px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 0px 0px #009de4;
+/*        box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]
+    position: relative;*/
+}
+
+#heading{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif,serif;
+}
+#input{
+    text-align: center;
+    padding: 5px;
+    font-size:20px;
+    margin: 3px;
+    text-transform: uppercase;
+    color:black ;
+    background-color: white;
+    border:3px solid red;
+    border-radius:10px;
+}
+
+#submit{
+    width:100px;
+    height:30px;
+    color:red;
+    background-color: aqua;
+    border-radius: 10px;
+    font-size:20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: fantasy;
+}
+#submit:hover{
+    background-color: gray;
+    color:black;
+    border: green;
+}
+
+#table{
+    width:200px;
+    height:300px;
+    background-color: green;
+    border:3px solid grey;
+    border-radius:10px;
+    font-size: 27px;
+    text-align: center;
+    padding:3px;
+    margin: 30px;
+    float: right;
+    display: none;
+}
+
+
+#square{
+    width:250px;
+    height:50px;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    position: absolute;
+ 
+}
+
+
+#cube{
+    width:250px;
+    height:50px;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+    position: absolute;
+    float:right;
+    
+    
+}
+#sqroot{
+    width:250px;
+    height:50px;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+    position: absolute;
+    float:right;
+    
+    
+}
